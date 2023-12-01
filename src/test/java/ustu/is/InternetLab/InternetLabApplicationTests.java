@@ -16,6 +16,11 @@ class InternetLabApplicationTests {
 	@Autowired
 	CalculatorServise calculatorServise;
 
+//		@Test
+//	void testCalcSumm() {
+//		Assertions.assertEquals(4, 2+2);
+//	}
+
 	@Test
 	void testCalcSumm() {
 		final String calcstr = calculatorServise.say("U", "summ", 100, 20);
