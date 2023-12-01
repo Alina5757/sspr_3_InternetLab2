@@ -85,7 +85,7 @@
 
 
 FROM openjdk:8-jre-alpine
-COPY tuneit-gradle-docker-1.0.jar /app/test_service.jar
+COPY InternetLab-0.0.1-SNAPSHOT.jar /app/test_service.jar
 ENTRYPOINT ["java"]
 #COPY build/libs/*.jar app.jar
 #ENTRYPOINT ["java", "-jar", "app.jar"]
