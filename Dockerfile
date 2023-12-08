@@ -89,5 +89,5 @@ COPY InternetLab-0.0.1-SNAPSHOT.jar /app/test_service.jar
 ENTRYPOINT ["java"]
 #COPY build/libs/*.jar app.jar
 #ENTRYPOINT ["java", "-jar", "app.jar"]
-CMD ["-jar", "/app/test_service.jar"]
+CMD ["-jar", "/app/InternetLab-0.0.1-SNAPSHOT.jar"]
 EXPOSE 8087
