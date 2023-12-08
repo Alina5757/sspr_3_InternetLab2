@@ -90,4 +90,4 @@ ENTRYPOINT ["java"]
 #COPY build/libs/*.jar app.jar
 #ENTRYPOINT ["java", "-jar", "app.jar"]
 CMD ["-jar", "/app/test_service.jar"]
-EXPOSE 8080
+EXPOSE 8087
